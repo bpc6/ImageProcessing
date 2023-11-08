@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(ImageProcessing)
 
 # Include directories
-target_include_directories(ImageProcessing PRIVATE include)
+target_include_directories(ImageProcessing PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
 # Google Test
 include(FetchContent)

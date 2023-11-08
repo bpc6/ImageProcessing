@@ -1,3 +1,4 @@
-target_sources(task-manager PRIVATE
+target_sources(ImageProcessing PRIVATE
         main.cpp
+        image_io.cpp
 )
