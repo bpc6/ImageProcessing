@@ -1,4 +1,3 @@
-target_sources(ImageProcessing PRIVATE
-        main.cpp
+target_sources(ImageProcessingLib PRIVATE
         image_io.cpp
 )
