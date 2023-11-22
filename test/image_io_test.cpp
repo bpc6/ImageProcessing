@@ -9,7 +9,7 @@ TEST(ImageLoadingTest, ImageFileDoesNotExist) {
 }
 
 TEST(ImageLoadingTest, ImageLoadedCorrectly) {
-  const std::string imageFile = "bw.png";
+  const std::string imageFile = "test/bw.png";
   int** pixels = loadImagePixels(imageFile);
 
   ASSERT_NE(pixels, nullptr) << "Failed to load the image.";
