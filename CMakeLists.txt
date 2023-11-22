@@ -8,7 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(ImageProcessingLib STATIC)
 target_include_directories(ImageProcessingLib PUBLIC ${CMAKE_SOURCE_DIR}/include)
 
-include(FetchContent)
-
 add_subdirectory(src)
 add_subdirectory(test)

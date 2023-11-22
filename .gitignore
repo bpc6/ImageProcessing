@@ -34,4 +34,6 @@
 # IntilliJ
 /.idea
 
+# Build and third_party
 /*build*
+/third_party
